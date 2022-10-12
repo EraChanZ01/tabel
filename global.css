@@ -1,0 +1,165 @@
+body{
+    background-color: #202e38;
+}
+table{
+    position: auto;
+    margin: auto;
+}
+
+th,td{
+    
+    text-align: start;
+    border:5px solid ;
+    font-family: "Poppins", sans-serif;
+}
+
+td{
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    padding: 10px;
+    transition: all 0.4s ease;
+    
+}
+h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+h2{
+    margin: 20px;
+}
+.block-SeriousWork{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(123deg, rgb(80, 175, 25) 0%, rgb(150, 202, 67) 100%);
+}
+.block-SocialMedia{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background:linear-gradient(123deg, rgb(198, 201, 31) 0%, rgb(241, 243, 105) 100%);
+}
+.block-PersonalDevelopment{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(123deg, rgb(21, 104, 153) 0%, rgb(102, 165, 236) 100%);
+}
+.block-FunStuff{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(123deg, rgb(224, 79, 79) 0%, rgb(255, 145, 0) 100%);
+}
+.info-block{
+    margin-top: 5em;
+    margin-left: 15em;
+    margin-right: 15em;
+    display: flex;
+}
+.main-block{
+    
+    display: flex;
+    width: 220px;
+    margin: auto;
+}
+p3{
+    padding: 6.5px;
+    margin-left: 10px;
+    color: white;
+}
+
+p{
+    
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    max-width: 75px;
+}
+.caption{
+    color:white;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.none-disp{
+    border:0px;
+}
+.SeriousWork{
+    border-image: linear-gradient(123deg, rgb(80, 175, 25) 0%, rgb(150, 202, 67) 100%) 1;
+}
+.SeriousWork p2,.SeriousWork p{
+    
+    background: -webkit-linear-gradient(rgb(80, 175, 25), rgb(150, 202, 67));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.SeriousWork:hover{
+    transform: scale(1.02);
+    background: linear-gradient(123deg, rgb(80, 175, 25) 0%, rgb(150, 202, 67) 100%);
+
+}
+.SeriousWork:hover p2,.SeriousWork:hover p{
+    color: black;
+    -webkit-text-fill-color:unset;
+}
+
+
+
+.SocialMedia{
+    border-image: linear-gradient(123deg, rgb(198, 201, 31) 0%, rgb(241, 243, 105) 100%) 1;
+}
+.SocialMedia:hover{
+    border:0px;
+    transform: scale(1.02);
+    background: linear-gradient(123deg, rgb(198, 201, 31) 0%, rgb(241, 243, 105) 100%);
+}
+.SocialMedia p2, .SocialMedia p{
+    background: -webkit-linear-gradient( rgb(198, 201, 31), rgb(241, 243, 105));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.SocialMedia:hover p2, .SocialMedia:hover p{
+    color: black;
+    -webkit-text-fill-color:unset;
+}
+
+
+
+.PersonalDevelopment{
+    border-image: linear-gradient(123deg, rgb(21, 104, 153) 0%, rgb(102, 165, 236) 100%) 1;
+}
+.PersonalDevelopment:hover{
+    transform: scale(1.02);
+    background: linear-gradient(123deg, rgb(21, 104, 153) 0%, rgb(102, 165, 236) 100%);
+}
+
+.PersonalDevelopment:hover p2,.PersonalDevelopment:hover p{
+    color: black;
+    -webkit-text-fill-color:unset;
+}
+.PersonalDevelopment p2,.PersonalDevelopment p{
+    background: -webkit-linear-gradient( rgb(21, 104, 153), rgb(102, 165, 236));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.FunStuff{
+    border-image: linear-gradient(123deg, rgb(224, 79, 79) 0%, rgb(255, 145, 0) 100%) 1;
+}
+.FunStuff p2,.FunStuff p{
+    background: -webkit-linear-gradient( rgb(224, 79, 79), rgb(255, 145, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.FunStuff:hover{
+    transform: scale(1.02);
+    background: linear-gradient(123deg, rgb(224, 79, 79) 0%, rgb(255, 145, 0) 100%);
+}
+.FunStuff:hover p2,.FunStuff:hover p{
+    color: black;
+    -webkit-text-fill-color:unset;
+}
